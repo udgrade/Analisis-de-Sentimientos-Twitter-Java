@@ -45,10 +45,10 @@ public class TwitList extends JFrame {
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
 
-        cb.setDebugEnabled(true).setOAuthConsumerKey("koKUA8dwgWL1Qi24u76tRrJ2H")
-                .setOAuthConsumerSecret("7ps5ctCCv4Wu5EZzIGaIJDnCxXoSwq07iHhnMACPefRqhAprqN")
-                .setOAuthAccessToken("2551820914-mOHqacIhIqRmpDSiayr91IDEt2YAwJaQg3Xp1IX")
-                .setOAuthAccessTokenSecret("1YOAADwiRzMwzQMCajD4HnyT3QQnyBeBgn7PvS4ltgBpO");
+        cb.setDebugEnabled(true).setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("");
 
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter tw = tf.getInstance();
